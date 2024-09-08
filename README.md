@@ -43,7 +43,7 @@ PENTING : Enter 2x
 
 ## 3. Akses via VNC :
 
-Buka RealVNC Viewer, masukkan IP VPS kalian. Setelah itu ikuti langkah langkah yang ada di video.
+Buka RealVNC Viewer, masukkan IP VPS kalian. Setelah itu ikuti langkah langkah yang seperti install windows biasanya
 
 ## 4. Download File Custom Windows Server Kalian :
 
@@ -78,6 +78,8 @@ http://yyy.yyy.yyy/windows2xxx.gz
 ```
 
 ## 5. Setting Agar Bisa Diakses via RDP :
+
+Create Droplet Baru untuk di jadikan RDP, Dan masuk ke recovery ISO
 
 ```jsx
 wget -O- --no-check-certificate http://yyy.yyy.yyy/windowsxxxx.gz | gunzip | dd of=/dev/vda
