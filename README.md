@@ -56,13 +56,13 @@ dd if=windows2xxx.img | gzip -c>windows2xxx.gz
 Install Apache
 
 ```powershell
-apt install apache2
+apt install nginx
 ```
 
 Beri akses firewall untuk Apache
 
 ```powershell
-sudo ufw allow 'Apache'
+sudo ufw allow 'Nginx Full'
 ```
 
 Pindahkan file Windows Server Image kalian biar bisa di download
@@ -78,8 +78,6 @@ http://yyy.yyy.yyy/windows2xxx.gz
 ```
 
 ## 5. Setting Agar Bisa Diakses via RDP :
-
-Create droplet baru dan ikuti petunjuk yang ada di YouTube
 
 ```jsx
 wget -O- --no-check-certificate http://yyy.yyy.yyy/windowsxxxx.gz | gunzip | dd of=/dev/vda
