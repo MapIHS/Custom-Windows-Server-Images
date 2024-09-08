@@ -53,10 +53,10 @@ Kompress Windows Server Img kalian
 dd if=windows2xxx.img | gzip -c>windows2xxx.gz
 ```
 
-Install Apache
+Install Apache2
 
 ```powershell
-apt install apache
+apt install apache2
 ```
 
 Beri akses firewall untuk Apache
