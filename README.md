@@ -56,13 +56,13 @@ dd if=windows2xxx.img | gzip -c>windows2xxx.gz
 Install Apache
 
 ```powershell
-apt install nginx
+apt install apache
 ```
 
 Beri akses firewall untuk Apache
 
 ```powershell
-sudo ufw allow 'Nginx Full'
+sudo ufw allow 'Apache'
 ```
 
 Pindahkan file Windows Server Image kalian biar bisa di download
