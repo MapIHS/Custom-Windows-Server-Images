@@ -53,16 +53,16 @@ Kompress Windows Server Img kalian
 dd if=windows2xxx.img | gzip -c>windows2xxx.gz
 ```
 
-Install Apache2
+Install Nginx
 
 ```powershell
-apt install apache2
+apt install nginx
 ```
 
-Beri akses firewall untuk Apache
+Beri akses firewall untuk Nginx Jika memakai firewall
 
 ```powershell
-sudo ufw allow 'Apache'
+sudo ufw allow 'Nginx Full'
 ```
 
 Pindahkan file Windows Server Image kalian biar bisa di download
